@@ -1,0 +1,25 @@
+{
+    
+        "products":[
+          {
+            
+            "name": "tees",
+            "barnd": "Diva",
+            "price":"899"
+          },
+        
+        
+          {
+            
+            "name": "tees",
+            "barnd": "Diva",
+            "price":"899"
+          },
+        
+         {
+            "name": "tees",
+            "barnd": "Diva",
+            "price":"899"
+        }
+    ]
+}
