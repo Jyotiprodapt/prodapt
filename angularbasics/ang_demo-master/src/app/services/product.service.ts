@@ -18,4 +18,12 @@ getProducts():Observable<Product[]>{
 
   return this.http.get<Product[]>(this.apiUrl);
 }
+
+
+// updateProductReminder(product:Product){
+//   product.reminder =! product.reminder;
+//   this.proService
+//       .updateProductReminder(product)
+//       .subscribe()
+// }
 }

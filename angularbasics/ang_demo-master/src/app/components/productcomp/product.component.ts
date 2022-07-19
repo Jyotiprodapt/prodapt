@@ -13,12 +13,21 @@ export class ProductComponent implements OnInit {
 
   products: Product[] = [];
   
-  constructor(private proSerice: ProductService) { }
+  constructor(private proService: ProductService) { }
 
   ngOnInit(): void {
-     this.proSerice.getProducts().subscribe((products) => (
+     this.proService.getProducts().subscribe((products) => (
         this.products = products
      ));
   }
+
+  
+  // productToggle(product:Product){
+  //   product.reminder = !product.reminder;
+    
+  //   this.proService
+  //       .updateProductReminder(product)
+  //       .subscribe()
+  // }
 
 }

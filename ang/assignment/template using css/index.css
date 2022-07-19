@@ -1,0 +1,236 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset ends here*/
+
+
+
+#header {
+      background-color: grey;
+}
+.container{
+	width:auto;
+	height:50px;
+}
+
+#searchDiv {
+	float: right;
+	padding: 14px 30px 0px 0px;
+	margin-right:244px;
+}
+
+#searchText {
+	height: 25px;
+	width: 200px;
+	border-radius: 4px;
+	text-align: center;
+	font-size: medium;
+}
+
+#searchButton {
+	height: 31px;
+	width: 60px;
+	border-radius: 4px;
+	font-size: medium;
+}
+
+
+#menu {
+	list-style: none;
+	margin: 17px;
+	padding: 0;
+	float: left;
+	margin-left: 244px;
+
+
+}
+
+#menu li {
+	display: inline-block;
+	margin-left:13px;
+
+}
+
+#menu li a {
+	color: white;
+	padding: 15px 10px;
+	display: inline;
+	text-decoration: none;
+}
+
+
+#menu .active {
+	background-color: #000;
+
+}
+
+#menu li a:hover {
+	background: #c0392b;
+}
+
+#banner {
+
+	background-color: #96F119;
+}
+
+.banner-title {
+	padding-top: 0px;
+
+}
+
+.banner-title h1 {
+
+	display: inline-block;
+	padding: 55px;
+	color: #C6FA0A;
+	font-size: -webkit-xxx-large;
+	margin-left: 212px;
+}
+
+.banner-title p.lead {
+	color: #C6FA0A;
+    margin-top: -46px;
+	margin-left: 270px;
+	margin-bottom: 16px;
+
+}
+
+.banner-title input{
+	margin-left:271px;
+	margin-bottom:17px;
+}
+
+.sub-head {
+	padding-left: 487px;
+	margin-top: -78px;
+	font-size: 20px;
+	color: silver;
+	float:left;
+	padding: 26px;
+	margin-right:366px;
+}
+
+.section-head {
+
+	text-decoration: none;
+	color: #000;
+	font-size: 3rem;
+	margin-left:244px;
+	padding:25px;
+}
+.para{
+	margin-left:272px;
+	color:silver;
+	
+	
+}
+.p{
+	margin-left:272px;
+	color:silver;
+	margin-block-end: 21px;
+	
+}
+
+
+
+
+
+.body-post1 img,.body-post2 img,.body-post3 img {
+
+	width: 350px;
+	height: auto;
+	margin-bottom: 20px;
+	margin-left:272px;
+
+}
+	
+	
+
+
+.body-post1 h3,.body-post2 h3, .body-post3 h3  {
+	font-size: 1.35rem;
+	margin-left:154px;
+	
+}
+
+.body-post1 h3 a ,.body-post2 h3 a,.body-post3 h3 a{
+	color: blue;
+	font-size: larger;
+	text-decoration: none;
+	margin-left:116px;
+	
+	
+}
+
+.body-post1 p,.body-post2 p,.body-post3 p {
+	font-size: medium;
+	color: silver;
+	margin-left:271px;
+	margin-right:30px;
+	
+}
+
+#footer-sidebar {
+	color: black;
+	background: orange;
+	padding: 49px 0;
+}
+
+.footer-widget {
+	color: black;
+
+}
+
+
+#footer {
+	color: black;
+	background: white;
+	padding: 10px 0;
+}
+
+#footer p {
+	color: silver;
+	margin-bottom: 15px;
+}
+

@@ -1,0 +1,16 @@
+.Product{
+    background-color: #f4f4f4;
+    margin: 5px;
+    padding: 10px 20px;
+    
+}
+
+.Product .price{
+    border-left: 5px solid green;
+}
+
+.Product h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
